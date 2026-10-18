@@ -1,0 +1,13 @@
+{
+  "name": "cloud-clipboard-worker",
+  "version": "1.0.0",
+  "description": "Smart Cloud Clipboard running on Cloudflare Workers with Telegram Bot integration",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
